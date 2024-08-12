@@ -43,6 +43,7 @@ public class PracticeServlet extends HttpServlet {
 			String message
 			= String.format("%s님은 %d 번째 인덱스에 존재 합니다", inputName, index);
 			
+			// HttpServletRequest 객체에 "message"라는 이름으로 message 값을 저장
 			req.setAttribute("message", message);
 			// JSP 파일 경로를 webapp 폴더 기준으로 작성
 			String path = "/WEB-INF/views/result.jsp";
