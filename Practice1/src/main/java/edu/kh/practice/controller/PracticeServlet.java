@@ -66,6 +66,8 @@ public class PracticeServlet extends HttpServlet {
 			resp.sendRedirect("/");
 			
 			// 테스트
+			// 테스트
+			// 테스트
 		
 	}
 }
