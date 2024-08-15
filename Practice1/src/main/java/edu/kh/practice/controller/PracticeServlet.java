@@ -65,9 +65,6 @@ public class PracticeServlet extends HttpServlet {
 			// 원하는 Servlet의 매핑되는 주소 작성
 			resp.sendRedirect("/");
 			
-			// 테스트
-			// 테스트
-			// 테스트
 		
 	}
 }
