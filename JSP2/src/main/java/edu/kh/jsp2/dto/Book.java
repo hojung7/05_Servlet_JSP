@@ -2,7 +2,6 @@ package edu.kh.jsp2.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Data // == @Getter + @Setter + @ToString
