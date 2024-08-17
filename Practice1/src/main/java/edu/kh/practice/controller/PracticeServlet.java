@@ -15,7 +15,7 @@ public class PracticeServlet extends HttpServlet {
 		nameList.add("꿍궁이");
 		nameList.add("융유리");
 		nameList.add("맹맹이");
-		
+		nameList.add("공공이");
 	}
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
