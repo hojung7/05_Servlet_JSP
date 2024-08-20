@@ -83,7 +83,7 @@ public class LoginServlet  extends HttpServlet{
 		sb.append("</html>");
 		
 		out.write(sb.toString()); // 클라이언트에게 출력
-											// == 서버 응답
+						        	// == 서버 응답
 		
 	}
 }

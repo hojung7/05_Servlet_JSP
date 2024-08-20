@@ -81,14 +81,14 @@
 <h1>범위별 객체 우선순위 확인</h1>
 <% 
   // page scope 객체에 값 세팅
-  pageContext.setAttribute("manu", "짬짜면(page)");
+  pageContext.setAttribute("menu", "짬짜면(page)");
 %>
 <h3>menu : ${menu}</h3>
 
 <hr>
 <h3>원하는 scope의 세팅된 값 얻어오기</h3>
 <ul>
-  <li>pageScope.manu : ${pageScope.menu}</li>
+  <li>pageScope.menu : ${pageScope.menu}</li>
   <li>requestScope.menu : ${requestScope.menu}</li>
   <li>sessionScope.menu " ${sessionScope.menu}</li>
   <li>applicationScope.menu " ${applicationScope.menu}</li>

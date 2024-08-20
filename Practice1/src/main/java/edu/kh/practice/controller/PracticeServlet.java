@@ -1,15 +1,6 @@
 package edu.kh.practice.controller;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
-import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.http.HttpSession;
 
 @WebServlet("/search")
 public class PracticeServlet extends HttpServlet {
@@ -24,7 +15,7 @@ public class PracticeServlet extends HttpServlet {
 		nameList.add("꿍궁이");
 		nameList.add("융유리");
 		nameList.add("맹맹이");
-		
+		nameList.add("공공이");
 	}
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -73,6 +64,7 @@ public class PracticeServlet extends HttpServlet {
 			// 또는
 			// 원하는 Servlet의 매핑되는 주소 작성
 			resp.sendRedirect("/");
+			
 		
 	}
 }

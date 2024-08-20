@@ -12,8 +12,10 @@ import jakarta.servlet.http.HttpServletResponse;
 @WebServlet("/test")
 public class TestServlet extends HttpServlet{
 	
+	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	
 		
 		// 전달 받은 값을
 		// h1 태그의 각각 다른 색상으로 출력되도록
@@ -52,16 +54,7 @@ public class TestServlet extends HttpServlet{
 		 dispatcher.forward(req, resp);
 		 
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		
 	}
 }
