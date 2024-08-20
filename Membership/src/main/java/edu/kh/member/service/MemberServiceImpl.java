@@ -18,6 +18,8 @@ public class MemberServiceImpl implements MemberService {
 		
 		dao = new MemberDaoImpl();
 	}
+
+
 	@Override
 	public boolean addMember(String name, String phone) {
 		// TODO Auto-generated method stub
@@ -25,6 +27,9 @@ public class MemberServiceImpl implements MemberService {
 	}
 
 
+	}
 
 
-}
+
+
+
